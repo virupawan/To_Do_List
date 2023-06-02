@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+.todo {
+  width: 100%;
+  height: 350px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container {
+  background: #7792af;
+  color: rgb(198, 65, 16);
+  width: 100%;
+  height: 350px;
+}
+.list {
+  float: right;
+  background: #ffffff;
+  width: 100%;
+  height: auto;
+}
+button {
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+input {
+  height: 40px;
+  width: 50%;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.container textarea {
+  width: 300px;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.rem:hover {
+  background: rgb(14, 217, 68);
+}
+.delete-button:hover {
+  background-color: rgb(219, 20, 20);
+}
+.delete-button {
+  color: red;
+  width: 60px;
+}
+.title {
+  font-size: 30px;
+  font-weight: 50px;
+  font-weight: bolder;
+}
+.task-description {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #200deb;
+}
+ul {
+  margin-left: 20px;
+  font-weight: bolder;
+}
